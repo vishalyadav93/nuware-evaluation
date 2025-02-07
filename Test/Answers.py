@@ -47,3 +47,5 @@ df.plot(x='City', y='average PPN', kind='bar', figsize=(10, 6)) #Kind = 'bar' fo
 correlation_PPN_beds = df['PPN'].corr(df['Beds'])
 df.plot(x='PPN',y='Beds')
 
+
+print('Just for push notification')
