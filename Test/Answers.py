@@ -29,18 +29,18 @@ def fix_denomination(amount):
 df = pd.read_csv(abs_file_name)
 df_sorted = df.sort_values(['PType', 'Reviews'], ascending=[True, False])
 top_3_rooms = df_sorted.groupby('PType').head(3)
-
+top_3_rooms.to_csv('Answer1.csv')
+print(top_3_rooms)
 
 #2nd--------------------------------------------------------------------
 df['PPN']= df['PPN'].apply(fix_denomination)
 result = df.groupby('City')['PPN'].agg(cheapest='min', costliest= 'max')
+result.to_csv('Answer2.csv')
 print(result)
 
 #3rd------------------------------------------------------------------------
-import matplotlib.pyplot as plt
-df['average PPN']=df.groupby('City')['PPN'].mean()
-df.reindex()
-df.plot(x='City',y='average PPN')
+df['average PPN'] = df.groupby('City')['PPN'].transform('mean')
+df.plot(x='City', y='average PPN', kind='bar', figsize=(10, 6)) #Kind = 'bar' for bar plot
 
 
 #4th--------------------------------------------------------------

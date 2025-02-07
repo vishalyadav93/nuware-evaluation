@@ -1,0 +1,10 @@
+,ID,City,Location ,PType,PPN,Nights,Beds,Baths,Reviews,Recent
+27,IND164,Mumbai,BKC,Entire Home/Apartment,₹6500,3.0,4.0,4.0,7.0,2022-04-10
+41,IND178,Delhi,Dilshad Garden,Entire Home/Apartment,₹6200,3.0,4.0,4.0,7.0,2022-05-12
+47,IND184,Mumbai,Santacruz,Entire Home/Apartment,₹7000,3.0,4.0,4.0,7.0,2022-07-22
+28,IND165,Delhi,Saket,Private Room,₹1800,1.0,1.0,1.0,5.0,"August 15, 2022"
+42,IND179,Bangalore,Electronic City Phase 2,Private Room,₹1800,1.0,1.0,1.0,5.0,"August 25, 2022"
+14,IND151,Pune,Shivaji Nagar,Private Room,Two Thousand,1.0,1.0,1.0,4.0,2022-05-15
+36,IND173,Hyderabad,Manikonda,Shared Room,₹800,1.0,1.0,,3.0,2022-07-15
+12,IND149,Delhi ,Dwarka,Shared Room,₹900,1.0,1.0,,2.0,20-Feb-22
+22,IND159,Bangalore,HSR Layout,Shared Room,₹700,1.0,,1.0,2.0,23-Mar-22
